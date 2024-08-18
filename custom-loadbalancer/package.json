@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "balancer.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon balancer.js"
+    "dev": "nodemon balancer.js",
+    "dev-server": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
